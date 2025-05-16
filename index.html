@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather-app</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="Style.CSS">
+</head>
+<body>
+  <div class="background-video">
+    <video  id = "video-container" autoplay loop muted plays-in-line>
+      <source  id = "video-source" src="default.mp4" type="video/mp4">
+    </video>
+  </div>
+  <div class="tittle">Sky Insights: Discover the Weather Around You</div>
+  <div class="searchBar" >
+  <input type="text" placeholder="get weather" id="input">
+  <button type="submit" class="searchicon" id="searchButton">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  </button>
+  </div>
+  <div class="input" id="location">
+    <div class="place" id="country">
+      Assam
+    </div>
+    <div class="date" id="date">
+      Monday 1 June
+    </div>
+  </div>
+  <div class="second" id="currentTemp">
+    
+  </div>
+</div>
+<div class="other-forcasting">
+      <div class="weather-forcast" id="weather-forcast">
+       <div class="day">Tuesday</div>
+       <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w icon">
+       <div class="temp">Night-25.5&deg; C</div>
+       <div class="temp">DAy-35.5&deg; C</div>
+      </div>
+      <div class="weather-forcast" id="weather-forcast">
+       <div class="day">Wdnesday</div>
+       <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w icon">
+       <div class="temp">Night-25.5&deg; C</div>
+       <div class="temp">DAy-35.5&deg; C</div>
+     </div>
+    <div class="weather-forcast" id="weather-forcast">
+      <div class="day">Thursday</div>
+      <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w icon">
+      <div class="temp">Night-25.5&deg; C</div>
+      <div class="temp">DAy-35.5&deg; C</div>
+    </div>
+    <div class="weather-forcast" id="weather-forcast">
+      <div class="day">Friday</div>
+      <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w icon">
+      <div class="temp">Night-25.5&deg; C</div>
+      <div class="temp">DAy-35.5&deg; C</div>
+    </div>
+    <div class="weather-forcast" id="weather-forcast">
+      <div class="day">Saturday</div>
+      <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w icon">
+      <div class="temp">Night-25.5&deg; C</div>
+      <div class="temp">DAy-35.5&deg; C</div>
+    </div>
+    <div class="weather-forcast" id="weather-forcast">
+      <div class="day">Sunday</div>
+      <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w icon">
+      <div class="temp">Night-25.5&deg; C</div>
+      <div class="temp">DAy-35.5&deg; C</div>
+    </div>
+    </div>
+  </div>
+  <script src="Java.js"></script>
+</body>
+</html>
