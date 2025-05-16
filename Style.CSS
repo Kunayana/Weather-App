@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Sundanese:wght@100..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+  padding: 0;
+  margin:0;
+  color :white;
+}
+.background-video{
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: absolute;
+  right: 0;
+  left: 0;
+  z-index: -1;
+}
+video {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  transform: translate(-50%, -50%);
+}
+
+body{
+  font-family: "poppins", sans-serif;
+}
+
+.tittle{
+  font-weight: 200;
+  padding-left: 25px;
+}
+.searchBar{
+  height: 50px;
+  padding-top: 40px;
+  padding-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: large;
+  color: black;
+}
+button{
+  width:40px;
+  height: 37px;
+  background-color:rgba(78, 7, 243, 0.25);
+  margin: 10px;
+  padding:15px;
+  border-color:rgba(78, 7, 243, 0.25);
+  border-radius: 10px;
+}
+button:focus{
+  outline: none;
+  border-color:rgba(78, 7, 243, 0.25);
+}
+i{
+  size:20px ; 
+ text-align: center;
+
+}
+input{
+  height: 30px;
+  width:300px;
+  border-radius: 15px;
+  border-color:rgba(78, 7, 243, 0.25);
+  text-align: center;
+  color: black;
+}
+input:focus{
+  border-color: white;
+outline: none;
+}
+.input{
+  padding-left: 25px;
+}
+.place{
+  font-size: xx-large;
+  padding-top: 0;
+}
+.date{
+  font-weight: 200;
+}
+#search{
+  padding-left: 90px;
+  height:150px ;
+  display: flex;
+  justify-content: center;
+  align-items:start;
+  top: 0;
+
+}
+.gap{
+  display: flex;
+  height: 100px;
+
+}
+.second{
+  display: flex;
+  padding-top: 20px;
+  height: 100px;
+  gap: 25px;
+
+}
+.degre{
+  font-size: 70px;
+  border: 0;
+  margin: 0;
+}
+.Sunny{
+  font-weight: 200;
+  padding: 0;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+}
+.humidity{
+  display: flex;
+  width: 600px;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgba(240, 240, 240,0.10);
+  border-radius: 7px;
+
+}
+
+.other-forcasting{
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  position: absolute;
+  bottom: 20px;
+}
+
+.day{
+  padding: 5px 15px;
+  background-color: rgba(240, 240, 240,0.30);
+  border-radius: 50px;
+  text-align: center;
+}
+.temp{
+  font-weight: 400;
+  text-align: center;
+}
+.weather-forcast{
+  border:1px solid white;
+  width:150px;
+  border-radius: 30px;
+  padding: 5px;
+  background-color: rgba(240, 240, 240,0.30);
+}
